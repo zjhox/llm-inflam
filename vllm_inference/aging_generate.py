@@ -8,10 +8,10 @@ from tqdm import tqdm
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Test Sample Builder")
-    parser.add_argument('--model', required=True, help='Path to the model directory')
-    parser.add_argument('--data_file', required=True, help='Path to the input data file')
-    parser.add_argument('--cache_file', required=True, help='Path to the cache file directory')
-    parser.add_argument('--prompt', default=None, help='Path to the prompt file')
+    parser.add_argument('--model', default='Qwen/Qwen2-0.5B-Instruct', help='Path to the model directory')
+    parser.add_argument('--data_file', default='/home/zjh/llm-inflam/vllm_inference/data/source_data/health_info_example.jsonl', help='Path to the input data file')
+    parser.add_argument('--cache_file', default='/home/zjh/llm-inflam/vllm_inference/data/cache_file/health_info-main_analysis-result-example.jsonl', help='Path to the cache file directory')
+    parser.add_argument('--prompt', default='/home/zjh/llm-inflam/vllm_inference/prompts/chinese_prompt.txt', help='Path to the prompt file')
     parser.add_argument('--do_sample', action='store_true', help='Whether to use sampling')
     parser.add_argument('--num_return_sequences', type=int, default=1, help='Number of sequences to return')
     parser.add_argument('--temperature', type=float, default=0, help='Sampling temperature')
