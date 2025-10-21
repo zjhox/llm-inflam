@@ -5,18 +5,31 @@ import json
 import argparse
 from model_processor import ModelProcessor
 from tqdm import tqdm
+import logging
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Test Sample Builder")
-    parser.add_argument('--model', default='Qwen/Qwen2-0.5B-Instruct', help='Path to the model directory')
-    parser.add_argument('--data_file', default='/home/zjh/llm-inflam/vllm_inference/data/source_data/health_info_example.jsonl', help='Path to the input data file')
-    parser.add_argument('--cache_file', default='/home/zjh/llm-inflam/vllm_inference/data/cache_file/health_info-main_analysis-result-example.jsonl', help='Path to the cache file directory')
-    parser.add_argument('--prompt', default='/home/zjh/llm-inflam/vllm_inference/prompts/chinese_prompt.txt', help='Path to the prompt file')
+    parser.add_argument('--model', default='Qwen/Qwen2-7B-Instruct', help='Path to the model directory')
+    parser.add_argument('--data_file', default='data/source_data/health_info_example.jsonl', help='Path to the input data file')
+    parser.add_argument('--cache_file', default='data/cache_file/health_info-main_analysis-result-example-zjh.jsonl', help='Path to the cache file directory')
+    parser.add_argument('--prompt', default='prompts/chinese_prompt.txt', help='Path to the prompt file')
     parser.add_argument('--do_sample', action='store_true', help='Whether to use sampling')
     parser.add_argument('--num_return_sequences', type=int, default=1, help='Number of sequences to return')
     parser.add_argument('--temperature', type=float, default=0, help='Sampling temperature')
     parser.add_argument('--max_tokens', type=int, default=1024, help='Maximum number of tokens')
     return parser.parse_args()
+
+def set_logging():
+    # 添加日志配置到标准输出、文件等(文件名为 aging_generate_{日期时间}.log)
+    import time
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.StreamHandler(sys.stdout),
+            logging.FileHandler(f"data/log/aging_generate_{time.strftime('%Y-%m-%d_%H:%M:%S', time.localtime())}.log", encoding='utf-8', mode='a')
+        ]
+    )
 
 def load_data(file_path):
     """Load JSONL data from the given file path."""
@@ -52,6 +65,8 @@ def process_file(data_file, cache_file, model_processor, prompt, args):
     generated_outputs = model_processor.generate_aging(input_texts)
     
     # Write the results to the cache file
+    if not os.path.exists(os.path.dirname(cache_file)):
+        os.makedirs(os.path.dirname(cache_file))
     with open(cache_file, 'w', encoding='utf-8') as output_file:
         for case, generated_output in zip(data, generated_outputs):
             case["model_generated_aging_prediction"] = generated_output
@@ -60,6 +75,8 @@ def process_file(data_file, cache_file, model_processor, prompt, args):
 
 def main():
     args = parse_args()
+    set_logging()
+    os.environ["VLLM_NCCL_SO_PATH"] = "/root/miniconda3/envs/vllm_310/lib/python3.10/site-packages/nvidia/nccl/lib/libnccl.so.2"
     # Load the prompt prompt if provided
     prompt = None
     if args.prompt:
