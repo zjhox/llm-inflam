@@ -1,0 +1,55 @@
+# field : "eid","age","sex","SBP","DBP","Pulse","Basophill_percentage","Eosinophill_count","Eosinophill_percentage","Haematocrit_percentage","Haemoglobin_concentration","High_light_scatter_reticulocyte_count","High_light_scatter_reticulocyte_percentage","Immature_reticulocyte_fraction","Lymphocyte_count","Lymphocyte_percentage","Mean_corpuscular_haemoglobin","Mean_corpuscular_haemoglobin_concentration","Mean_corpuscular_volume","Mean_platelet_.thrombocyte._volume","Mean_reticulocyte_volume","Mean_sphered_cell_volume","Monocyte_count","Monocyte_percentage","Neutrophill_count","Neutrophill_percentage","Nucleated_red_blood_cell_count","Nucleated_red_blood_cell_percentage","Platelet_count","Platelet_crit","Platelet_distribution_width","Red_blood_cell_.erythrocyte._count","Red_blood_cell_.erythrocyte._distribution_width","Reticulocyte_count","Reticulocyte_percentage","White_blood_cell_.leukocyte._count","Alanine_aminotransferase","Albumin","Alkaline_phosphatase","Apolipoprotein_A","Apolipoprotein_B","Aspartate_aminotransferase","C.reactive_protein","Calcium","Cholesterol","Creatinine","Cystatin_C","Direct_bilirubin","Gamma_glutamyltransferase","Glucose","Glycated_haemoglobin_.HbA1c.","HDL_cholesterol","IGF.1","LDL_direct","Lipoprotein_A","Oestradiol","Phosphate","Rheumatoid_factor","SHBG","Testosterone","Total_bilirubin","Total_protein","Triglycerides","Urate","Urea","Vitamin_D","NLR","LMR","PLR","SII","Creatinine_.enzymatic._in_urine","Microalbumin_in_urine","Potassium_in_urine","Sodium_in_urine","eGFR","Vegetable_intake","Fruit_intake","Fish_intake","Redmeat_intake","Processed_meat_intake","Whole_wheat_bread_intake","Whole_grains_intake","Tea_intake","Coffee_intake","DII","DII_Q","Smoke_status","Pack_years_of_smoking","Alcohol_drinker_status","Alcohol_intake_frequency","Duration_of_walks","Duration_of_moderate_activity","Duration_of_vigorous_activity","Whether_physical_activity_meets_recommended_levels","Night_shift_work","Sleep_duration","Sleep_score","Sleep_score_Q","Standing_height","Weight","Body_mass_index_.BMI.","Waist_circumference","Hip_circumference","Waist_to_Hip_Ratio","Waist_to_Height_Ratio","Body_fat_percentage","Whole_body_fat_mass","Whole_body_fat.free_mass","Trunk_fat_percentage","Trunk_fat_mass","Trunk_fat.free_mass","Nitrogen_dioxide_air_pollution._2005","Nitrogen_dioxide_air_pollution._2006","Nitrogen_dioxide_air_pollution._2007","Nitrogen_dioxide_air_pollution._2010","Nitrogen_oxides_air_pollution._2010","Particulate_matter_air_pollution_.pm10.._2007","Particulate_matter_air_pollution_.pm10.._2010","Particulate_matter_air_pollution_.pm2.5._absorbance._2010","Particulate_matter_air_pollution_.pm2.5.._2010","Particulate_matter_air_pollution_2.5.10um._2010","Average_24.hour_sound_level_of_noise_pollution","Natural_environment_percentage._buffer_1000m","Natural_environment_percentage._buffer_300m","Greenspace_percentage._buffer_1000m","Greenspace_percentage._buffer_300m","Domestic_garden_percentage._buffer_1000m","Domestic_garden_percentage._buffer_300m","Medication_Usage","HSV.1_seropositivity_for_Herpes_Simplex_virus.1","HSV.2_seropositivity_for_Herpes_Simplex_virus.2","VZV_seropositivity_for_Varicella_Zoster_Virus","EBV_seropositivity_for_Epstein.Barr_Virus","CMV_seropositivity_for_Human_Cytomegalovirus","HHV.6_overall_seropositivity_for_Human_Herpesvirus.6","HHV.7_seropositivity_for_Human_Herpesvirus.7","KSHV_seropositivity_for_Kaposi.s_Sarcoma.Associated_Herpesvirus","HBV_seropositivity_for_Hepatitis_B_Virus","HCV_seropositivity_for_Hepatitis_C_Virus","T._gondii_seropositivity_for_Toxoplasma_gondii","HTLV.1_seropositivity_for_Human_T.Lymphotropic_Virus_1","HIV.1_seropositivity_for_Human_Immunodeficiency_Virus","BKV_seropositivity_for_Human_Polyomavirus_BKV","JCV_seropositivity_for_Human_Polyomavirus_JCV","MCV_seropositivity_for_Merkel_Cell_Polyomavirus","HPV_18_seropositivity_for_Human_Papillomavirus_type.18","HPV_16_seropositivity_for_Human_Papillomavirus_type.16","H._pylori_seropositivity_for_Helicobacter_pylori","C._trachomatis_seropositivity_for_Chlamydia_trachomatis","Antigen_test_positivity_rate","Kidney_parenchyma_left","Kidney_parenchyma_right","Kidney_parenchyma_total","Proton_density_fat_fraction_PDFF","Liver_iron_corrected_T1_ct1","FVC","FEV1","PEF"
+# "SBP","DBP","Pulse","Basophill_percentage","Eosinophill_count","Eosinophill_percentage","Haematocrit_percentage","Haemoglobin_concentration","High_light_scatter_reticulocyte_count","High_light_scatter_reticulocyte_percentage","Immature_reticulocyte_fraction","Lymphocyte_count","Lymphocyte_percentage","Mean_corpuscular_haemoglobin","Mean_corpuscular_haemoglobin_concentration","Mean_corpuscular_volume","Mean_platelet_.thrombocyte._volume","Mean_reticulocyte_volume","Mean_sphered_cell_volume","Monocyte_count","Monocyte_percentage","Neutrophill_count","Neutrophill_percentage","Nucleated_red_blood_cell_count","Nucleated_red_blood_cell_percentage","Platelet_count","Platelet_crit","Platelet_distribution_width","Red_blood_cell_.erythrocyte._count","Red_blood_cell_.erythrocyte._distribution_width","Reticulocyte_count","Reticulocyte_percentage","White_blood_cell_.leukocyte._count","Alanine_aminotransferase","Albumin","Alkaline_phosphatase","Apolipoprotein_A","Apolipoprotein_B","Aspartate_aminotransferase","C.reactive_protein","Calcium","Cholesterol","Creatinine","Cystatin_C","Direct_bilirubin","Gamma_glutamyltransferase","Glucose","Glycated_haemoglobin_.HbA1c.","HDL_cholesterol","IGF.1","LDL_direct","Lipoprotein_A","Oestradiol","Phosphate","Rheumatoid_factor","SHBG","Testosterone","Total_bilirubin","Total_protein","Triglycerides","Urate","Urea","Vitamin_D","NLR","LMR","PLR","SII","Creatinine_.enzymatic._in_urine","Microalbumin_in_urine","Potassium_in_urine","Sodium_in_urine","eGFR","Vegetable_intake","Fruit_intake","Fish_intake","Redmeat_intake","Processed_meat_intake","Whole_wheat_bread_intake","Whole_grains_intake","Tea_intake","Coffee_intake","DII","DII_Q","Smoke_status","Pack_years_of_smoking","Alcohol_drinker_status","Alcohol_intake_frequency","Duration_of_walks","Duration_of_moderate_activity","Duration_of_vigorous_activity","Whether_physical_activity_meets_recommended_levels","Night_shift_work","Sleep_duration","Sleep_score","Sleep_score_Q","Weight","Body_mass_index_.BMI.","Waist_circumference","Hip_circumference","Waist_to_Hip_Ratio","Waist_to_Height_Ratio","Body_fat_percentage","Whole_body_fat_mass","Whole_body_fat.free_mass","Trunk_fat_percentage","Trunk_fat_mass","Trunk_fat.free_mass","Nitrogen_dioxide_air_pollution._2005","Nitrogen_dioxide_air_pollution._2006","Nitrogen_dioxide_air_pollution._2007","Nitrogen_dioxide_air_pollution._2010","Nitrogen_oxides_air_pollution._2010","Particulate_matter_air_pollution_.pm10.._2007","Particulate_matter_air_pollution_.pm10.._2010","Particulate_matter_air_pollution_.pm2.5._absorbance._2010","Particulate_matter_air_pollution_.pm2.5.._2010","Particulate_matter_air_pollution_2.5.10um._2010","Average_24.hour_sound_level_of_noise_pollution","Natural_environment_percentage._buffer_1000m","Natural_environment_percentage._buffer_300m","Greenspace_percentage._buffer_1000m","Greenspace_percentage._buffer_300m","Domestic_garden_percentage._buffer_1000m","Domestic_garden_percentage._buffer_300m","Medication_Usage","HSV.1_seropositivity_for_Herpes_Simplex_virus.1","HSV.2_seropositivity_for_Herpes_Simplex_virus.2","VZV_seropositivity_for_Varicella_Zoster_Virus","EBV_seropositivity_for_Epstein.Barr_Virus","CMV_seropositivity_for_Human_Cytomegalovirus","HHV.6_overall_seropositivity_for_Human_Herpesvirus.6","HHV.7_seropositivity_for_Human_Herpesvirus.7","KSHV_seropositivity_for_Kaposi.s_Sarcoma.Associated_Herpesvirus","HBV_seropositivity_for_Hepatitis_B_Virus","HCV_seropositivity_for_Hepatitis_C_Virus","T._gondii_seropositivity_for_Toxoplasma_gondii","HTLV.1_seropositivity_for_Human_T.Lymphotropic_Virus_1","HIV.1_seropositivity_for_Human_Immunodeficiency_Virus","BKV_seropositivity_for_Human_Polyomavirus_BKV","JCV_seropositivity_for_Human_Polyomavirus_JCV","MCV_seropositivity_for_Merkel_Cell_Polyomavirus","HPV_18_seropositivity_for_Human_Papillomavirus_type.18","HPV_16_seropositivity_for_Human_Papillomavirus_type.16","H._pylori_seropositivity_for_Helicobacter_pylori","C._trachomatis_seropositivity_for_Chlamydia_trachomatis","Antigen_test_positivity_rate","Kidney_parenchyma_left","Kidney_parenchyma_right","Kidney_parenchyma_total","Proton_density_fat_fraction_PDFF","Liver_iron_corrected_T1_ct1","FVC","FEV1","PEF"
+
+
+category_list:
+ - category: 'basic information'
+   category_cn: '基本信息'
+   field_dict:
+    age:
+      field_id: 21022
+      indicator_name: 'Age at recruitment'
+      indicator_name_cn: '年龄'
+      units: 'years'
+      units_cn: '岁'
+      comment: ''
+    sex:
+      field_id: 31
+      indicator_name: 'Sex'
+      indicator_name_cn: '性别'
+      units: ''
+      units_cn: ''
+      comment: ''
+  - category: 'Physical fitness and obesity indicators'
+    category_cn: '体格与肥胖指标'
+    field_dict:
+      Standing_height:
+        field_id: 50
+        indicator_name: 'Standing height'
+        indicator_name_cn: '身高'
+        units: 'cm'
+        units_cn: 'cm'
+        comment: ''
+  - category: 'blood pressure and heart rate indicators'
+    category_cn: '血压与心率'
+  - category: 'blood tests'
+    category_cn: '血常规检查'
+  - category: 'blood tests'
+    category_cn: '血液生化检查'
+    field_dict:
+  - category: 'urine tests'
+    category_cn: '尿液生化检查'
+  - category: 'diet and nutrition'
+    category_cn: '饮食与营养摄入'
+  - category: 'life style'
+    category_cn: '生活方式'
+  - category: 'sleep features'
+    category_cn: '睡眠特征'
+  - category: 'surrounding environment exposure'
+    category_cn: '居住周围环境暴露'
+  - category: 'drug use'
+    category_cn: '用药情况'
+  - category: 'infection serum tests'
+    category_cn: '感染血清学（抗体阳性情况）'
+  - category: 'organ function and imaging indicators'
+    category_cn: '器官功能与影像指标'

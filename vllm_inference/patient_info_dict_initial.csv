@@ -1,0 +1,189 @@
+Field ID	Indicator name	units
+21022	Age at recruitment	years
+31	Sex	NA
+22189	Townsend deprivation index at recruitment(TDI)	NA
+6142	Current employment status	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 6."
+6138	Qualifications	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 5."
+21000	Ethnic background	"Defined-instances run from 0 to 3, labelled using Instancing 2."
+6141	How are people in household related to participant	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 4."
+4079	Diastolic blood pressure, automated reading	mmHg
+94	Diastolic blood pressure, manual reading	mmHg
+95	Pulse rate (during blood-pressure measurement)	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 1."
+102	Pulse rate, automated reading	bpm
+4080	Systolic blood pressure, automated reading	mmHg
+93	Systolic blood pressure, manual reading	mmHg
+30160	Basophill count	10^9 cells/Litre
+30220	Basophill percentage	percent
+30150	Eosinophill count	10^9 cells/Litre
+30210	Eosinophill percentage	percent
+30030	Haematocrit percentage	percent
+30020	Haemoglobin concentration	grams/decilitre
+30300	High light scatter reticulocyte count	10^12 cells/Litre
+30290	High light scatter reticulocyte percentage	percent
+30280	Immature reticulocyte fraction	ratio
+30120	Lymphocyte count	10^9 cells/Litre
+30180	Lymphocyte percentage	percent
+30050	Mean corpuscular haemoglobin	picograms
+30060	Mean corpuscular haemoglobin concentration	grams/decilitre
+30040	Mean corpuscular volume	femtolitres
+30100	Mean platelet (thrombocyte) volume	femtolitres
+30260	Mean reticulocyte volume	femtolitres
+30270	Mean sphered cell volume	femtolitres
+30130	Monocyte count	10^9 cells/Litre
+30190	Monocyte percentage	percent
+30140	Neutrophill count	10^9 cells/Litre
+30200	Neutrophill percentage	percent
+30170	Nucleated red blood cell count	10^9 cells/Litre
+30230	Nucleated red blood cell percentage	percent
+30080	Platelet count	10^9 cells/Litre
+30090	Platelet crit	percent
+30110	Platelet distribution width	percent
+30010	Red blood cell (erythrocyte) count	10^12 cells/Litre
+30070	Red blood cell (erythrocyte) distribution width	percent
+30250	Reticulocyte count	10^12 cells/Litre
+30240	Reticulocyte percentage	percent
+30000	White blood cell (leukocyte) count	10^9 cells/Litre
+30620	Alanine aminotransferase	U/L
+30600	Albumin	g/l
+30610	Alkaline phosphatase	U/L
+30630	Apolipoprotein A	g/L
+30640	Apolipoprotein B	g/l
+30650	Aspartate aminotransferase	U/L
+30710	C-reactive protein	mg/L
+30680	Calcium	mmol/L
+30690	Cholesterol	mmol/L
+30700	Creatinine	umol/L
+30720	Cystatin C	mg/L
+30660	Direct bilirubin	umol/L
+30730	Gamma glutamyltransferase	U/L
+30740	Glucose	mmol/L
+30750	Glycated haemoglobin (HbA1c)	mmol/mol
+30760	HDL cholesterol	mmol/L
+30770	IGF-1	nmol/L
+30780	LDL direct	mmol/L
+30790	Lipoprotein A	nmol/L
+30800	Oestradiol	pmol/L
+30810	Phosphate	mmol/L
+30820	Rheumatoid factor	IU/ml
+30830	SHBG	nmol/L
+30850	Testosterone	nmol/L
+30840	Total bilirubin	umol/L
+30860	Total protein	g/L
+30870	Triglycerides	mmol/L
+30880	Urate	umol/L
+30670	Urea	mmol/L
+30890	Vitamin D	nmol/L
+—	NLR=Neutrophil/Lymphocyte	
+—	LMR=Lymphocyte/Monocyte	
+—	PLR=Platelet/Lymphocyte	
+—	SII=Neutrophil*Platelet/Lymphocyte	
+30510	Creatinine (enzymatic) in urine	micromole/L
+30500	Microalbumin in urine	mg/L
+30520	Potassium in urine	millimole/L
+30530	Sodium in urine	millimole/L
+—	eGFR	
+1289	Cooked vegetable intake	tablespoons/day
+1299	Salad / raw vegetable intake	tablespoons/day
+1309	Fresh fruit intake	pieces/day
+1319	Dried fruit intake	pieces/day
+1329	Oily fish intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1339	Non-oily fish intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1349	Processed meat intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1359	Poultry intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1369	Beef intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1379	Lamb/mutton intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1389	Pork intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1408	Cheese intake	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1438	Bread intake	slices/week
+1448	Bread type	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1458	Cereal intake	bowls/week
+1468	Cereal type	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1478	Salt added to food	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1488	Tea intake	cups/day
+1498	Coffee intake	cups/day
+—	Diet inflammatory index	
+20116	Smoking status	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1239	Current tobacco smoking	Defined-instances run from 0 to 3, labelled using Instancing 2.
+20161	Pack years of smoking	years
+20162	Pack years adult smoking as proportion of life span exposed to smoking	Units
+20117	Alcohol drinker status	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1558	Alcohol intake frequency	Defined-instances run from 0 to 3, labelled using Instancing 2.
+874	Duration of walks	minutes/day
+894	Duration of moderate activity	minutes/day
+914	Duration of vigorous activity	minutes/day
+—	Whether physical activity meets recommended levels	
+826	Job involves shift work	Defined-instances run from 0 to 3, labelled using Instancing 2.
+6142	Current employment status	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 6."
+3426	Job involves night shift work	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1160	Sleep duration	hours/day
+1180	Chronotype	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1200	Sleeplessness/Insomnia	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1210	Snoring	Defined-instances run from 0 to 3, labelled using Instancing 2.
+1220	Daytime sleepiness/dozing	Defined-instances run from 0 to 3, labelled using Instancing 2.
+—	Sleep score	
+50	Standing height	cm
+21002	Weight	Kg
+21001	Body mass index (BMI)	Kg/m2
+48	Waist circumference	cm
+49	Hip circumference	cm
+—	Waist-to-Hip Ratio	
+—	Waist to height ratio	
+23099	Body fat percentage	percent
+23100	Whole body fat mass	Kg
+23101	Whole body fat-free mass	Kg
+23127	Trunk fat percentage	percent
+23128	Trunk fat mass	Kg
+23129	Trunk fat-free mass	Kg
+24016	Nitrogen dioxide air pollution; 2005	micro-g/m3
+24017	Nitrogen dioxide air pollution; 2006	micro-g/m3
+24018	Nitrogen dioxide air pollution; 2007	micro-g/m3
+24003	Nitrogen dioxide air pollution; 2010	micro-g/m3
+24004	Nitrogen oxides air pollution; 2010	micro-g/m3
+24019	Particulate matter air pollution (pm10); 2007	micro-g/m3
+24005	Particulate matter air pollution (pm10); 2010	micro-g/m3
+24007	Particulate matter air pollution (pm2.5) absorbance; 2010	per-metre
+24006	Particulate matter air pollution (pm2.5); 2010	micro-g/m3
+24008	Particulate matter air pollution 2.5-10um; 2010	micro-g/m3
+24024	Average 24-hour sound level of noise pollution	dB
+24506	Natural environment percentage, buffer 1000m	percent
+24507	Natural environment percentage, buffer 300m	percent
+24500	Greenspace percentage, buffer 1000m	percent
+24503	Greenspace percentage, buffer 300m	percent
+24501	Domestic garden percentage, buffer 1000m	percent
+24504	Domestic garden percentage, buffer 300m	percent
+6177	Medication for cholesterol, blood pressure or diabetes	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 2."
+6153	Medication for cholesterol, blood pressure, diabetes, or take exogenous hormones	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 3."
+6154	Medication for pain relief, constipation, heartburn	"Defined-instances run from 0 to 3, labelled using Instancing 2.Array indices run from 0 to 5."
+23050	HSV-1 seropositivity for Herpes Simplex virus-1	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23051	HSV-2 seropositivity for Herpes Simplex virus-2	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23052	VZV seropositivity for Varicella Zoster Virus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23053	EBV seropositivity for Epstein-Barr Virus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23054	CMV seropositivity for Human Cytomegalovirus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23055	HHV-6 overall seropositivity for Human Herpesvirus-6	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23056	HHV-6A seropositivity for Human Herpesvirus-6	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23057	HHV-6B seropositivity for Human Herpesvirus-6	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23058	HHV-7 seropositivity for Human Herpesvirus-7	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23059	KSHV seropositivity for Kaposi's Sarcoma-Associated Herpesvirus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23060	HBV seropositivity for Hepatitis B Virus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23061	HCV seropositivity for Hepatitis C Virus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23062	T. gondii seropositivity for Toxoplasma gondii	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23063	HTLV-1 seropositivity for Human T-Lymphotropic Virus 1	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23064	HIV-1 seropositivity for Human Immunodeficiency Virus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23065	BKV seropositivity for Human Polyomavirus BKV	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23066	JCV seropositivity for Human Polyomavirus JCV	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23067	MCV seropositivity for Merkel Cell Polyomavirus	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23068	HPV 16 Definition I seropositivity for Human Papillomavirus type-16	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23075	HPV 16 Definition II seropositivity for Human Papillomavirus type-16	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23069	HPV 18 seropositivity for Human Papillomavirus type-18	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23070	C. trachomatis Definition I seropositivity for Chlamydia trachomatis	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23071	C. trachomatis Definition II seropositivity for Chlamydia trachomatis	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23073	H. pylori Definition I seropositivity for Helicobacter pylori	Defined-instances run from 0 to 1, labelled using Instancing 2.
+23074	H. pylori Definition II seropositivity for Helicobacter pylori	Defined-instances run from 0 to 1, labelled using Instancing 2.
+3062	Forced vital capacity (FVC)	litres
+3063	Forced expiratory volume in 1-second (FEV1)	litres
+3064	Peak expiratory flow (PEF)	litres/min
+21161	Kidney parenchyma (left)	ml
+21162	Kidney parenchyma (right)	ml
+21160	Kidney parenchyma total	ml
+40061	Proton density fat fraction (PDFF)	percent
+40062	Liver iron corrected T1 (ct1)	msec

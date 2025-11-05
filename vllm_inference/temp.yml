@@ -1,0 +1,738 @@
+
+Alanine aminotransferase:
+  field_id: 30620
+  indicator_name: Alanine aminotransferase
+  units: U/L
+Albumin:
+  field_id: 30600
+  indicator_name: Albumin
+  units: g/l
+Alcohol drinker status:
+  field_id: 20117
+  indicator_name: Alcohol drinker status
+  units: ' '
+Alcohol intake frequency:
+  field_id: 1558
+  indicator_name: Alcohol intake frequency
+  units: ' '
+Alkaline phosphatase:
+  field_id: 30610
+  indicator_name: Alkaline phosphatase
+  units: U/L
+Apolipoprotein A:
+  field_id: 30630
+  indicator_name: Apolipoprotein A
+  units: g/L
+Apolipoprotein B:
+  field_id: 30640
+  indicator_name: Apolipoprotein B
+  units: g/l
+Aspartate aminotransferase:
+  field_id: 30650
+  indicator_name: Aspartate aminotransferase
+  units: U/L
+Average 24-hour sound level of noise pollution:
+  field_id: 24024
+  indicator_name: Average 24-hour sound level of noise pollution
+  units: dB
+BKV seropositivity for Human Polyomavirus BKV:
+  field_id: 23065
+  indicator_name: BKV seropositivity for Human Polyomavirus BKV
+  units: ' '
+Basophill count:
+  field_id: 30160
+  indicator_name: Basophill count
+  units: 10^9 cells/Litre
+Basophill percentage:
+  field_id: 30220
+  indicator_name: Basophill percentage
+  units: percent
+Beef intake:
+  field_id: 1369
+  indicator_name: Beef intake
+  units: ' '
+Body fat percentage:
+  field_id: 23099
+  indicator_name: Body fat percentage
+  units: percent
+Body mass index (BMI):
+  field_id: 21001
+  indicator_name: Body mass index (BMI)
+  units: Kg/m2
+Bread intake:
+  field_id: 1438
+  indicator_name: Bread intake
+  units: slices/week
+Bread type:
+  field_id: 1448
+  indicator_name: Bread type
+  units: ' '
+C-reactive protein:
+  field_id: 30710
+  indicator_name: C-reactive protein
+  units: mg/L
+C. trachomatis Definition I seropositivity for Chlamydia trachomatis:
+  field_id: 23070
+  indicator_name: C. trachomatis Definition I seropositivity for Chlamydia trachomatis
+  units: ' '
+C. trachomatis Definition II seropositivity for Chlamydia trachomatis:
+  field_id: 23071
+  indicator_name: C. trachomatis Definition II seropositivity for Chlamydia trachomatis
+  units: ' '
+CMV seropositivity for Human Cytomegalovirus:
+  field_id: 23054
+  indicator_name: CMV seropositivity for Human Cytomegalovirus
+  units: ' '
+Calcium:
+  field_id: 30680
+  indicator_name: Calcium
+  units: mmol/L
+Cereal intake:
+  field_id: 1458
+  indicator_name: Cereal intake
+  units: bowls/week
+Cereal type:
+  field_id: 1468
+  indicator_name: Cereal type
+  units: ' '
+Cheese intake:
+  field_id: 1408
+  indicator_name: Cheese intake
+  units: ' '
+Cholesterol:
+  field_id: 30690
+  indicator_name: Cholesterol
+  units: mmol/L
+Chronotype:
+  field_id: 1180
+  indicator_name: Chronotype
+  units: ' '
+Coffee intake:
+  field_id: 1498
+  indicator_name: Coffee intake
+  units: cups/day
+Cooked vegetable intake:
+  field_id: 1289
+  indicator_name: Cooked vegetable intake
+  units: tablespoons/day
+Creatinine:
+  field_id: 30700
+  indicator_name: Creatinine
+  units: umol/L
+Creatinine (enzymatic) in urine:
+  field_id: 30510
+  indicator_name: Creatinine (enzymatic) in urine
+  units: micromole/L
+Current employment status:
+  field_id: 6142
+  indicator_name: Current employment status
+  units: ' '
+Current tobacco smoking:
+  field_id: 1239
+  indicator_name: Current tobacco smoking
+  units: ' '
+Cystatin C:
+  field_id: 30720
+  indicator_name: Cystatin C
+  units: mg/L
+Daytime sleepiness/dozing:
+  field_id: 1220
+  indicator_name: Daytime sleepiness/dozing
+  units: ' '
+Diastolic blood pressure  automated reading:
+  field_id: 4079
+  indicator_name: Diastolic blood pressure  automated reading
+  units: mmHg
+Diastolic blood pressure  manual reading:
+  field_id: 94
+  indicator_name: Diastolic blood pressure  manual reading
+  units: mmHg
+Diet inflammatory index:
+  field_id: null
+  indicator_name: Diet inflammatory index
+  units: nan
+Direct bilirubin:
+  field_id: 30660
+  indicator_name: Direct bilirubin
+  units: umol/L
+Domestic garden percentage  buffer 1000m:
+  field_id: 24501
+  indicator_name: Domestic garden percentage  buffer 1000m
+  units: percent
+Domestic garden percentage  buffer 300m:
+  field_id: 24504
+  indicator_name: Domestic garden percentage  buffer 300m
+  units: percent
+Dried fruit intake:
+  field_id: 1319
+  indicator_name: Dried fruit intake
+  units: pieces/day
+Duration of moderate activity:
+  field_id: 894
+  indicator_name: Duration of moderate activity
+  units: minutes/day
+Duration of vigorous activity:
+  field_id: 914
+  indicator_name: Duration of vigorous activity
+  units: minutes/day
+Duration of walks:
+  field_id: 874
+  indicator_name: Duration of walks
+  units: minutes/day
+EBV seropositivity for Epstein-Barr Virus:
+  field_id: 23053
+  indicator_name: EBV seropositivity for Epstein-Barr Virus
+  units: ' '
+Eosinophill count:
+  field_id: 30150
+  indicator_name: Eosinophill count
+  units: 10^9 cells/Litre
+Eosinophill percentage:
+  field_id: 30210
+  indicator_name: Eosinophill percentage
+  units: percent
+Ethnic background:
+  field_id: 21000
+  indicator_name: Ethnic background
+  units: ' '
+Forced expiratory volume in 1-second (FEV1):
+  field_id: 3063
+  indicator_name: Forced expiratory volume in 1-second (FEV1)
+  units: litres
+Forced vital capacity (FVC):
+  field_id: 3062
+  indicator_name: Forced vital capacity (FVC)
+  units: litres
+Fresh fruit intake:
+  field_id: 1309
+  indicator_name: Fresh fruit intake
+  units: pieces/day
+Gamma glutamyltransferase:
+  field_id: 30730
+  indicator_name: Gamma glutamyltransferase
+  units: U/L
+Glucose:
+  field_id: 30740
+  indicator_name: Glucose
+  units: mmol/L
+Glycated haemoglobin (HbA1c):
+  field_id: 30750
+  indicator_name: Glycated haemoglobin (HbA1c)
+  units: mmol/mol
+Greenspace percentage  buffer 1000m:
+  field_id: 24500
+  indicator_name: Greenspace percentage  buffer 1000m
+  units: percent
+Greenspace percentage  buffer 300m:
+  field_id: 24503
+  indicator_name: Greenspace percentage  buffer 300m
+  units: percent
+H. pylori Definition I seropositivity for Helicobacter pylori:
+  field_id: 23073
+  indicator_name: H. pylori Definition I seropositivity for Helicobacter pylori
+  units: ' '
+H. pylori Definition II seropositivity for Helicobacter pylori:
+  field_id: 23074
+  indicator_name: H. pylori Definition II seropositivity for Helicobacter pylori
+  units: ' '
+HBV seropositivity for Hepatitis B Virus:
+  field_id: 23060
+  indicator_name: HBV seropositivity for Hepatitis B Virus
+  units: ' '
+HCV seropositivity for Hepatitis C Virus:
+  field_id: 23061
+  indicator_name: HCV seropositivity for Hepatitis C Virus
+  units: ' '
+HDL cholesterol:
+  field_id: 30760
+  indicator_name: HDL cholesterol
+  units: mmol/L
+HHV-6 overall seropositivity for Human Herpesvirus-6:
+  field_id: 23055
+  indicator_name: HHV-6 overall seropositivity for Human Herpesvirus-6
+  units: ' '
+HHV-6A seropositivity for Human Herpesvirus-6:
+  field_id: 23056
+  indicator_name: HHV-6A seropositivity for Human Herpesvirus-6
+  units: ' '
+HHV-6B seropositivity for Human Herpesvirus-6:
+  field_id: 23057
+  indicator_name: HHV-6B seropositivity for Human Herpesvirus-6
+  units: ' '
+HHV-7 seropositivity for Human Herpesvirus-7:
+  field_id: 23058
+  indicator_name: HHV-7 seropositivity for Human Herpesvirus-7
+  units: ' '
+HIV-1 seropositivity for Human Immunodeficiency Virus:
+  field_id: 23064
+  indicator_name: HIV-1 seropositivity for Human Immunodeficiency Virus
+  units: ' '
+HPV 16 Definition I seropositivity for Human Papillomavirus type-16:
+  field_id: 23068
+  indicator_name: HPV 16 Definition I seropositivity for Human Papillomavirus type-16
+  units: ' '
+HPV 16 Definition II seropositivity for Human Papillomavirus type-16:
+  field_id: 23075
+  indicator_name: HPV 16 Definition II seropositivity for Human Papillomavirus type-16
+  units: ' '
+HPV 18 seropositivity for Human Papillomavirus type-18:
+  field_id: 23069
+  indicator_name: HPV 18 seropositivity for Human Papillomavirus type-18
+  units: ' '
+HSV-1 seropositivity for Herpes Simplex virus-1:
+  field_id: 23050
+  indicator_name: HSV-1 seropositivity for Herpes Simplex virus-1
+  units: ' '
+HSV-2 seropositivity for Herpes Simplex virus-2:
+  field_id: 23051
+  indicator_name: HSV-2 seropositivity for Herpes Simplex virus-2
+  units: ' '
+HTLV-1 seropositivity for Human T-Lymphotropic Virus 1:
+  field_id: 23063
+  indicator_name: HTLV-1 seropositivity for Human T-Lymphotropic Virus 1
+  units: ' '
+Haematocrit percentage:
+  field_id: 30030
+  indicator_name: Haematocrit percentage
+  units: percent
+Haemoglobin concentration:
+  field_id: 30020
+  indicator_name: Haemoglobin concentration
+  units: grams/decilitre
+High light scatter reticulocyte count:
+  field_id: 30300
+  indicator_name: High light scatter reticulocyte count
+  units: 10^12 cells/Litre
+High light scatter reticulocyte percentage:
+  field_id: 30290
+  indicator_name: High light scatter reticulocyte percentage
+  units: percent
+Hip circumference:
+  field_id: 49
+  indicator_name: Hip circumference
+  units: cm
+How are people in household related to participant:
+  field_id: 6141
+  indicator_name: How are people in household related to participant
+  units: ' '
+IGF-1:
+  field_id: 30770
+  indicator_name: IGF-1
+  units: nmol/L
+Immature reticulocyte fraction:
+  field_id: 30280
+  indicator_name: Immature reticulocyte fraction
+  units: ratio
+JCV seropositivity for Human Polyomavirus JCV:
+  field_id: 23066
+  indicator_name: JCV seropositivity for Human Polyomavirus JCV
+  units: ' '
+Job involves night shift work:
+  field_id: 3426
+  indicator_name: Job involves night shift work
+  units: ' '
+Job involves shift work:
+  field_id: 826
+  indicator_name: Job involves shift work
+  units: ' '
+KSHV seropositivity for Kaposi's Sarcoma-Associated Herpesvirus:
+  field_id: 23059
+  indicator_name: KSHV seropositivity for Kaposi's Sarcoma-Associated Herpesvirus
+  units: ' '
+Kidney parenchyma (left):
+  field_id: 21161
+  indicator_name: Kidney parenchyma (left)
+  units: ml
+Kidney parenchyma (right):
+  field_id: 21162
+  indicator_name: Kidney parenchyma (right)
+  units: ml
+Kidney parenchyma total:
+  field_id: 21160
+  indicator_name: Kidney parenchyma total
+  units: ml
+LDL direct:
+  field_id: 30780
+  indicator_name: LDL direct
+  units: mmol/L
+LMR=Lymphocyte/Monocyte:
+  field_id: null
+  indicator_name: LMR=Lymphocyte/Monocyte
+  units: nan
+Lamb/mutton intake:
+  field_id: 1379
+  indicator_name: Lamb/mutton intake
+  units: ' '
+Lipoprotein A:
+  field_id: 30790
+  indicator_name: Lipoprotein A
+  units: nmol/L
+Liver iron corrected T1 (ct1):
+  field_id: 40062
+  indicator_name: Liver iron corrected T1 (ct1)
+  units: msec
+Lymphocyte count:
+  field_id: 30120
+  indicator_name: Lymphocyte count
+  units: 10^9 cells/Litre
+Lymphocyte percentage:
+  field_id: 30180
+  indicator_name: Lymphocyte percentage
+  units: percent
+MCV seropositivity for Merkel Cell Polyomavirus:
+  field_id: 23067
+  indicator_name: MCV seropositivity for Merkel Cell Polyomavirus
+  units: ' '
+Mean corpuscular haemoglobin:
+  field_id: 30050
+  indicator_name: Mean corpuscular haemoglobin
+  units: picograms
+Mean corpuscular haemoglobin concentration:
+  field_id: 30060
+  indicator_name: Mean corpuscular haemoglobin concentration
+  units: grams/decilitre
+Mean corpuscular volume:
+  field_id: 30040
+  indicator_name: Mean corpuscular volume
+  units: femtolitres
+Mean platelet (thrombocyte) volume:
+  field_id: 30100
+  indicator_name: Mean platelet (thrombocyte) volume
+  units: femtolitres
+Mean reticulocyte volume:
+  field_id: 30260
+  indicator_name: Mean reticulocyte volume
+  units: femtolitres
+Mean sphered cell volume:
+  field_id: 30270
+  indicator_name: Mean sphered cell volume
+  units: femtolitres
+Medication for cholesterol  blood pressure  diabetes  or take exogenous hormones:
+  field_id: 6153
+  indicator_name: Medication for cholesterol  blood pressure  diabetes  or take exogenous
+    hormones
+  units: ' '
+Medication for cholesterol  blood pressure or diabetes:
+  field_id: 6177
+  indicator_name: Medication for cholesterol  blood pressure or diabetes
+  units: ' '
+Medication for pain relief  constipation  heartburn:
+  field_id: 6154
+  indicator_name: Medication for pain relief  constipation  heartburn
+  units: ' '
+Microalbumin in urine:
+  field_id: 30500
+  indicator_name: Microalbumin in urine
+  units: mg/L
+Monocyte count:
+  field_id: 30130
+  indicator_name: Monocyte count
+  units: 10^9 cells/Litre
+Monocyte percentage:
+  field_id: 30190
+  indicator_name: Monocyte percentage
+  units: percent
+NLR=Neutrophil/Lymphocyte:
+  field_id: null
+  indicator_name: NLR=Neutrophil/Lymphocyte
+  units: nan
+Natural environment percentage  buffer 1000m:
+  field_id: 24506
+  indicator_name: Natural environment percentage  buffer 1000m
+  units: percent
+Natural environment percentage  buffer 300m:
+  field_id: 24507
+  indicator_name: Natural environment percentage  buffer 300m
+  units: percent
+Neutrophill count:
+  field_id: 30140
+  indicator_name: Neutrophill count
+  units: 10^9 cells/Litre
+Neutrophill percentage:
+  field_id: 30200
+  indicator_name: Neutrophill percentage
+  units: percent
+Nitrogen dioxide air pollution; 2005:
+  field_id: 24016
+  indicator_name: Nitrogen dioxide air pollution; 2005
+  units: micro-g/m3
+Nitrogen dioxide air pollution; 2006:
+  field_id: 24017
+  indicator_name: Nitrogen dioxide air pollution; 2006
+  units: micro-g/m3
+Nitrogen dioxide air pollution; 2007:
+  field_id: 24018
+  indicator_name: Nitrogen dioxide air pollution; 2007
+  units: micro-g/m3
+Nitrogen dioxide air pollution; 2010:
+  field_id: 24003
+  indicator_name: Nitrogen dioxide air pollution; 2010
+  units: micro-g/m3
+Nitrogen oxides air pollution; 2010:
+  field_id: 24004
+  indicator_name: Nitrogen oxides air pollution; 2010
+  units: micro-g/m3
+Non-oily fish intake:
+  field_id: 1339
+  indicator_name: Non-oily fish intake
+  units: ' '
+Nucleated red blood cell count:
+  field_id: 30170
+  indicator_name: Nucleated red blood cell count
+  units: 10^9 cells/Litre
+Nucleated red blood cell percentage:
+  field_id: 30230
+  indicator_name: Nucleated red blood cell percentage
+  units: percent
+Oestradiol:
+  field_id: 30800
+  indicator_name: Oestradiol
+  units: pmol/L
+Oily fish intake:
+  field_id: 1329
+  indicator_name: Oily fish intake
+  units: ' '
+PLR=Platelet/Lymphocyte:
+  field_id: null
+  indicator_name: PLR=Platelet/Lymphocyte
+  units: nan
+Pack years adult smoking as proportion of life span exposed to smoking:
+  field_id: 20162
+  indicator_name: Pack years adult smoking as proportion of life span exposed to smoking
+  units: Units
+Pack years of smoking:
+  field_id: 20161
+  indicator_name: Pack years of smoking
+  units: years
+Particulate matter air pollution (pm10); 2007:
+  field_id: 24019
+  indicator_name: Particulate matter air pollution (pm10); 2007
+  units: micro-g/m3
+Particulate matter air pollution (pm10); 2010:
+  field_id: 24005
+  indicator_name: Particulate matter air pollution (pm10); 2010
+  units: micro-g/m3
+Particulate matter air pollution (pm2.5) absorbance; 2010:
+  field_id: 24007
+  indicator_name: Particulate matter air pollution (pm2.5) absorbance; 2010
+  units: per-metre
+Particulate matter air pollution (pm2.5); 2010:
+  field_id: 24006
+  indicator_name: Particulate matter air pollution (pm2.5); 2010
+  units: micro-g/m3
+Particulate matter air pollution 2.5-10um; 2010:
+  field_id: 24008
+  indicator_name: Particulate matter air pollution 2.5-10um; 2010
+  units: micro-g/m3
+Peak expiratory flow (PEF):
+  field_id: 3064
+  indicator_name: Peak expiratory flow (PEF)
+  units: litres/min
+Phosphate:
+  field_id: 30810
+  indicator_name: Phosphate
+  units: mmol/L
+Platelet count:
+  field_id: 30080
+  indicator_name: Platelet count
+  units: 10^9 cells/Litre
+Platelet crit:
+  field_id: 30090
+  indicator_name: Platelet crit
+  units: percent
+Platelet distribution width:
+  field_id: 30110
+  indicator_name: Platelet distribution width
+  units: percent
+Pork intake:
+  field_id: 1389
+  indicator_name: Pork intake
+  units: ' '
+Potassium in urine:
+  field_id: 30520
+  indicator_name: Potassium in urine
+  units: millimole/L
+Poultry intake:
+  field_id: 1359
+  indicator_name: Poultry intake
+  units: ' '
+Processed meat intake:
+  field_id: 1349
+  indicator_name: Processed meat intake
+  units: ' '
+Proton density fat fraction (PDFF):
+  field_id: 40061
+  indicator_name: Proton density fat fraction (PDFF)
+  units: percent
+Pulse rate  automated reading:
+  field_id: 102
+  indicator_name: Pulse rate  automated reading
+  units: bpm
+Pulse rate (during blood-pressure measurement):
+  field_id: 95
+  indicator_name: Pulse rate (during blood-pressure measurement)
+  units: ' '
+Qualifications:
+  field_id: 6138
+  indicator_name: Qualifications
+  units: ' '
+Red blood cell (erythrocyte) count:
+  field_id: 30010
+  indicator_name: Red blood cell (erythrocyte) count
+  units: 10^12 cells/Litre
+Red blood cell (erythrocyte) distribution width:
+  field_id: 30070
+  indicator_name: Red blood cell (erythrocyte) distribution width
+  units: percent
+Reticulocyte count:
+  field_id: 30250
+  indicator_name: Reticulocyte count
+  units: 10^12 cells/Litre
+Reticulocyte percentage:
+  field_id: 30240
+  indicator_name: Reticulocyte percentage
+  units: percent
+Rheumatoid factor:
+  field_id: 30820
+  indicator_name: Rheumatoid factor
+  units: IU/ml
+SHBG:
+  field_id: 30830
+  indicator_name: SHBG
+  units: nmol/L
+SII=Neutrophil*Platelet/Lymphocyte:
+  field_id: null
+  indicator_name: SII=Neutrophil*Platelet/Lymphocyte
+  units: nan
+Salad / raw vegetable intake:
+  field_id: 1299
+  indicator_name: Salad / raw vegetable intake
+  units: tablespoons/day
+Salt added to food:
+  field_id: 1478
+  indicator_name: Salt added to food
+  units: ' '
+Sleep duration:
+  field_id: 1160
+  indicator_name: Sleep duration
+  units: hours/day
+Sleep score:
+  field_id: null
+  indicator_name: Sleep score
+  units: nan
+Sleeplessness/Insomnia:
+  field_id: 1200
+  indicator_name: Sleeplessness/Insomnia
+  units: ' '
+Smoking status:
+  field_id: 20116
+  indicator_name: Smoking status
+  units: ' '
+Snoring:
+  field_id: 1210
+  indicator_name: Snoring
+  units: ' '
+Sodium in urine:
+  field_id: 30530
+  indicator_name: Sodium in urine
+  units: millimole/L
+Systolic blood pressure  automated reading:
+  field_id: 4080
+  indicator_name: Systolic blood pressure  automated reading
+  units: mmHg
+Systolic blood pressure  manual reading:
+  field_id: 93
+  indicator_name: Systolic blood pressure  manual reading
+  units: mmHg
+T. gondii seropositivity for Toxoplasma gondii:
+  field_id: 23062
+  indicator_name: T. gondii seropositivity for Toxoplasma gondii
+  units: ' '
+Tea intake:
+  field_id: 1488
+  indicator_name: Tea intake
+  units: cups/day
+Testosterone:
+  field_id: 30850
+  indicator_name: Testosterone
+  units: nmol/L
+Total bilirubin:
+  field_id: 30840
+  indicator_name: Total bilirubin
+  units: umol/L
+Total protein:
+  field_id: 30860
+  indicator_name: Total protein
+  units: g/L
+Townsend deprivation index at recruitment(TDI):
+  field_id: 22189
+  indicator_name: Townsend deprivation index at recruitment(TDI)
+  units: nan
+Triglycerides:
+  field_id: 30870
+  indicator_name: Triglycerides
+  units: mmol/L
+Trunk fat mass:
+  field_id: 23128
+  indicator_name: Trunk fat mass
+  units: Kg
+Trunk fat percentage:
+  field_id: 23127
+  indicator_name: Trunk fat percentage
+  units: percent
+Trunk fat-free mass:
+  field_id: 23129
+  indicator_name: Trunk fat-free mass
+  units: Kg
+Urate:
+  field_id: 30880
+  indicator_name: Urate
+  units: umol/L
+Urea:
+  field_id: 30670
+  indicator_name: Urea
+  units: mmol/L
+VZV seropositivity for Varicella Zoster Virus:
+  field_id: 23052
+  indicator_name: VZV seropositivity for Varicella Zoster Virus
+  units: ' '
+Vitamin D:
+  field_id: 30890
+  indicator_name: Vitamin D
+  units: nmol/L
+Waist circumference:
+  field_id: 48
+  indicator_name: Waist circumference
+  units: cm
+Waist to height ratio:
+  field_id: null
+  indicator_name: Waist to height ratio
+  units: nan
+Waist-to-Hip Ratio:
+  field_id: null
+  indicator_name: Waist-to-Hip Ratio
+  units: nan
+Weight:
+  field_id: 21002
+  indicator_name: Weight
+  units: Kg
+Whether physical activity meets recommended levels:
+  field_id: null
+  indicator_name: Whether physical activity meets recommended levels
+  units: nan
+White blood cell (leukocyte) count:
+  field_id: 30000
+  indicator_name: White blood cell (leukocyte) count
+  units: 10^9 cells/Litre
+Whole body fat mass:
+  field_id: 23100
+  indicator_name: Whole body fat mass
+  units: Kg
+Whole body fat-free mass:
+  field_id: 23101
+  indicator_name: Whole body fat-free mass
+  units: Kg
+eGFR:
+  field_id: null
+  indicator_name: eGFR
+  units: nan
