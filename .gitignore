@@ -210,4 +210,5 @@ __marimo__/
 # custom
 data
 vllm_inference/data/meta
-
+vllm_inference/data/ukb_initial
+log.txt

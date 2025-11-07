@@ -39,16 +39,20 @@ def generate_units_dict(units_df: pd.DataFrame):
     """
     从 units_df 中读取数据，生成 units_dict，格式如下：
     units_dict = {
-        '1': ('', ''),
-        '100001': ('years', '岁'),
-        '100002': ('months', '月'),
-        '100003': ('days', '天'),
+        1: ('', ''),
+        100001: ('years', '岁'),
+        100002: ('months', '月'),
+        100003: ('days', '天'),
     }
     """
     units_dict = {}
     for _, row in units_df.iterrows():
         # todo: 中文单位待补充
-        units_dict[row['unit_index']] = (row['unit_name'], row['unit_name'])
+        # 定义实例单位设置为空
+        unit_name = row['unit_name'] if not str(row['unit_name']).startswith('Defined-instances') else ''
+        units_dict[row['unit_index']] = (unit_name, unit_name)
+    # 约定NA的id为0，手动设置NA为空
+    units_dict[0] = ('', '')
     return units_dict
 
 

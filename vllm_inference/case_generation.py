@@ -1,44 +1,6 @@
 
-field_dict_demo = {
-    'age': {
-        'indicator_name': 'Age at recruitment',
-        'indicator_name_cn': '年龄',
-        'units': 'years',
-        'units_cn': '岁',
-        'comment': '',
-    },
-}
 
-category_list  = [
-    {
-        'id': '1',
-        'name_cn': '基本信息',
-        'name': 'basic information',
-        'field_list': [],
-    },
-    {
-        'id': '2',
-        'name_cn': '社会经济因素',
-        'name': 'socioeconomic factors',
-        'field_list': [],
-    },
-    {
-        'id': '3',
-        'name_cn': '健康因素',
-        'name': 'health factors',
-        'field_list': [],
-    },
-]
-
-units_dict = {
-    '1': ('no units', '无单位'),
-    '100001': ('years', '岁'),
-    '100002': ('months', '月'),
-    '100003': ('days', '天'),
-}
-
-
-def get_field_dict(dict_file_path):
+def get_field_dict(dict_file_path, units_dict, category_list):
     """
     从 dict_file_path 中获取指标信息字典; csv or xlsx 格式如下：
     field_id,indicator_name,indicator_name_cn,field_name,units_id,category_id
@@ -77,8 +39,10 @@ def get_field_dict(dict_file_path):
         raise ValueError('dict_file_path must be csv or xlsx file')
     
     field_dict = {}
+    # 丢弃field_name为空的行
+    df = df.dropna(subset=['field_name'])
     for _, row in df.iterrows():
-        field_id,indicator_name,indicator_name_cn,field_name,units_id,category_id = row
+        field_id,indicator_name,indicator_name_cn,field_name,units_id,category_id = row['field id'],row['indicator name'],row['indicator_name_cn'],row['field_name'],row['unit_id'],row['category_id']
         field_dict[field_name] = {
             'field_id': field_id,
             'indicator_name': indicator_name,
@@ -101,20 +65,26 @@ def generate_case_json_list(csv_path, category_list, field_dict,cn=False):
     """
     case_josnl = []
     import pandas as pd
+    import tqdm
     df = pd.read_csv(csv_path)
-    for _, row in df.iterrows():
+    for _, row in tqdm.tqdm(df.iterrows(), total=len(df)):
         eid = row['eid']
         input = ''
-        for category in category_list:
-            category_name = category['name_cn'] if cn else category['name']
-            input += f'[{category_name}]\n'
-            for field_name in category['field_list']:
-                field_info = field_dict[field_name]
-                indicator_name = field_info['indicator_name_cn'] if cn else field_info['indicator_name']
-                units = field_info['units_cn'] if cn else field_info['units']
-                input += f'{indicator_name}: {row[field_name]} {units}\n'
-        case_josnl.append({
-            'eid': eid,
-            'input': input,
-        })
+        try: 
+            for category in category_list:
+                category_name = category['name_cn'] if cn else category['name']
+                input += f' {category['id']}、[{category_name}]\n'
+                for field_name in category['field_list']:
+                    field_info = field_dict[field_name]
+                    indicator_name = field_info['indicator_name_cn'] if cn else field_info['indicator_name']
+                    units = field_info['units_cn'] if cn else field_info['units']
+                    input += f'{indicator_name}: {row[field_name]} {units}\n' if pd.notna(row[field_name]) else f'{indicator_name}: NA\n'
+            case_josnl.append({
+                'eid': eid,
+                'input': input,
+            })
+        except Exception as e:
+            print(f'Error processing eid {eid}: {e}')
+            print('category:', category, 'field_name:', field_name)
+            continue
     return case_josnl
