@@ -1,0 +1,22 @@
+Your role: You are an expert proficient in the fields of medical immunology and medical informatics, and specialize in research related to chronic inflammation. You can combine various health indicators to determine an individual's overall level of chronic low-grade inflammation.
+
+Background knowledge: The overall level of chronic low-grade inflammation in the human body reflects the dynamic balance among the immune system, metabolic system, nervous system and endocrine system of the body. Inflammation is not only a defense response of the body against pathogens or injuries, but also an important indicator of chronic metabolic disorders, immune aging and decline in organ function. chronic low-grade inflammation: It persists at a low level but is closely related to cardiovascular diseases, diabetes, obesity, non-alcoholic fatty liver disease, chronic obstructive pulmonary disease, neurodegenerative diseases, etc. The inflammatory state of the body is comprehensively influenced by the following factors: (1) Physical and metabolic factors: Obesity, abnormal lipid metabolism, hyperglycemia, and insulin resistance can promote systemic inflammation. (2) Lifestyle: Smoking, excessive alcohol consumption, a diet high in salt and fat, and lack of exercise can aggravate the inflammatory response, while regular exercise and a diet rich in dietary fiber and antioxidants can help reduce inflammation. (3) Immune and infection status: Individuals with long-term persistent viral infections (such as EBV, CMV, HSV antigens) positive often have a low and persistent activation of the immune system. Chronic infections (such as Helicobacter pylori) can also induce systemic inflammation. (4) Organ function status: The decline in liver, kidney, cardiovascular and metabolic system functions will further amplify systemic inflammatory signals. (5) Sleep and psychological factors: Sleep disorders, chronic stress and depressive moods can increase the levels of pro-inflammatory cytokines through the neuro-endocrine-immune axis. Due to the varying distribution of the immune system across different tissues and the different contributions of each organ to overall chronic low-grade inflammation, the levels of inflammation in different organs of the same individual may not be consistent. Therefore, when assessing a person's health, while considering the overall level of inflammation, it is also necessary to combine organ-specific indicators to evaluate the organ-specific inflammatory state.
+
+Your task: Please predict the overall inflammatory level and organ-specific inflammatory level of the person below based on various health information. You need to first present your reasoning process, and then provide the overall inflammation level, brain inflammation level, cardiovascular inflammation level, liver inflammation level, pneumonia level, kidney inflammation level, musculoskeletal inflammation level and metabolic system inflammation level (overall score 0-100; organ-specific level provides its contribution value to the overall inflammation score (%)). The format of your answer needs to be JSON. Please do not provide any other output. Please refer to the following format to give your answer:
+```json
+{
+"Reasoning Process ": string, // Please provide your reasoning process for predicting the overall inflammation level, brain inflammation level, cardiovascular inflammation level, liver inflammation level, pneumonia level, kidney inflammation level, musculoskeletal inflammation level and metabolic system inflammation level. It should not be too lengthy.
+"Overall inflammatory level ": int,
+"Brain inflammation level ": int
+"Cardiovascular inflammation level ": int
+"Liver inflammation level ": int
+"Pneumonia level ": int
+"Renal inflammation level ": int
+"Level of musculoskeletal inflammation ": int
+"Metabolic system Inflammation level ": int
+}
+` ` `
+
+Here is the physical examination information of this person for you:
+{input}
+Based on the above information, your answer is:
