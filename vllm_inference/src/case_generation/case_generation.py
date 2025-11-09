@@ -57,15 +57,20 @@ def get_field_dict(dict_file_path, units_dict, category_list):
                 break
     return field_dict, category_list
 
-def generate_case_json_list(csv_path, category_list, field_dict,cn=False):
+def generate_case_json_list(csv_path, category_list, field_dict,cn=False,output_file_path=None):
     """
     从 csv_path 中读取数据，根据 category_list 和 field_dict 生成样本, 每个样本为一个 json 字符串列表，格式如下：
     {"eid": 1, "input": "[Basic information]\nAge: 56 years old\nGender: female\n......"]}
-
+    其中 input 部分根据 cn 参数决定使用中文还是英文字段名称
+    如果 output_file_path 不为 None，则将结果保存到指定文件中，每行一个 json 字符串，逐行写入
     """
-    case_josnl = []
     import pandas as pd
     import tqdm
+    import json
+
+    if output_file_path is not None:
+        f = open(output_file_path, 'w', encoding='utf-8')
+    case_josnl = []
     df = pd.read_csv(csv_path)
     for _, row in tqdm.tqdm(df.iterrows(), total=len(df)):
         eid = row['eid']
@@ -79,10 +84,16 @@ def generate_case_json_list(csv_path, category_list, field_dict,cn=False):
                     indicator_name = field_info['indicator_name_cn'] if cn else field_info['indicator_name']
                     units = field_info['units_cn'] if cn else field_info['units']
                     input += f'{indicator_name}: {row[field_name]} {units}\n' if pd.notna(row[field_name]) else f'{indicator_name}: NA\n'
-            case_josnl.append({
-                'eid': eid,
-                'input': input,
-            })
+            if output_file_path is not None:
+                f.write(json.dumps({
+                    'eid': eid,
+                    'input': input,
+                }, ensure_ascii=False) + '\n')
+            else:
+                case_josnl.append({
+                    'eid': eid,
+                    'input': input,
+                })
         except Exception as e:
             print(f'Error processing eid {eid}: {e}')
             print('category:', category, 'field_name:', field_name)
