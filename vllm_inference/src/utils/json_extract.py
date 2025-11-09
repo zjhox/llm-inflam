@@ -10,26 +10,34 @@ def extract_json(str):
     根据其中 “```json” 和 “```” 提取json对象
 
     """
-    start = str.find("```json") + len("```json")
-    end = str.find("```", start)
-    json_str = str[start:end].strip()
-    return json.loads(json_str)
+    try : 
+        start = str.find("```json") + len("```json")
+        end = str.find("```", start)
+        json_str = str[start:end]
+        return json.loads(json_str)
+    except Exception as e:
+        # print(f"Error extracting JSON: {str}\n {json_str}， {e}")
+        return None
 
 if __name__ == "__main__":
 
-    file_path = 'data/cache_file/mydata1019_mini_cn.jsonl'
-    output_path = 'data/cache_file/mydata1019_mini_cn_extracted'
+    file_path = 'data/cache_file/mydata1019_cn_0_50000_qwen7I.jsonl'
+    output_path = 'data/cache_file/mydata1019_cn_0_50000_qwen7I_extracted'
     selected_field = 'model_generated_aging_prediction'
 
     import pandas as pd
+    import tqdm
 
     result_metric = []
     result_process = []
+    total_lines = sum(1 for _ in open(file_path, "r", encoding="utf-8"))
     with open(file_path, "r", encoding="utf-8") as infile:
-        for line in infile:
+        for line in tqdm.tqdm(infile):
             data = json.loads(line)
             if selected_field in data:
                 json_obj = extract_json(data[selected_field][0])
+                if json_obj is None:
+                    continue
                 eid = data['eid']
                 result_metric.append({
                     'eid': eid,
@@ -46,6 +54,7 @@ if __name__ == "__main__":
                     'eid': eid,
                     '推理过程': json_obj['推理过程']
                 })
+    print(f"Extracted {len(result_metric)/total_lines*100:.2f}% records with metrics.")
     df_metric = pd.DataFrame(result_metric)
     df_metric.to_csv(output_path + '_metric.csv', index=False)
     df_metric.to_excel(output_path + '_metric.xlsx', index=False)
