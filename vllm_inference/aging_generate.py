@@ -59,7 +59,9 @@ def process_file(data_file, cache_file, model_processor, prompt, args):
     )
     
     # Apply the prompt to all cases at once
-    input_texts = [process_prompt(case, prompt) for case in data]
+    input_texts = []
+    for case in tqdm(data, desc="Processing cases"):
+        input_texts.append(process_prompt(case, prompt))
     
     # Generate output for all input texts in a batch
     generated_outputs = model_processor.generate_aging(input_texts)

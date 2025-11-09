@@ -14,13 +14,13 @@ def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description="Test Sample Builder")
     parser.add_argument('--data_file', default='data/cache_file/health_info-main_analysis-result-example-zjh.jsonl', help='Path to the input data file')
-    parser.add_argument('--index', default=0, type=list or int, help='Indices of recently edited files')
+    parser.add_argument('--index', default='0', type=str, help='Indices of recently edited files')
     return parser.parse_args()
 
 def main():
     args = parse_args()
     data_file = args.data_file
-    index = args.index
+    index = [int(i) for i in args.index.split(',')]
     data = read_jsonl(data_file)
     
     if isinstance(index, int):

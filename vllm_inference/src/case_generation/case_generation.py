@@ -78,7 +78,7 @@ def generate_case_json_list(csv_path, category_list, field_dict,cn=False,output_
         try: 
             for category in category_list:
                 category_name = category['name_cn'] if cn else category['name']
-                input += f' {category['id']}、[{category_name}]\n'
+                input += f"{category['id']}、[{category_name}]\n"
                 for field_name in category['field_list']:
                     field_info = field_dict[field_name]
                     indicator_name = field_info['indicator_name_cn'] if cn else field_info['indicator_name']

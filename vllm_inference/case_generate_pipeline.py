@@ -2,9 +2,9 @@ import argparse
 import colorlog 
 import logging
 import os
-from vllm_inference.src.utils.logger import set_logger
-from case_generation import get_field_dict, generate_case_json_list
-from csv2context_map_dict import generate_csv2context_map_dict
+from src.utils.logger import set_logger
+from src.case_generation.case_generation import get_field_dict, generate_case_json_list
+from src.case_generation.csv2context_map_dict import generate_csv2context_map_dict
 import json
 
 def set_argparser():
